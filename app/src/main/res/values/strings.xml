@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Museum Zoologi Frater Vianney</string>
+    <string name="deskripsi">Museum Zoologi Frater adalah salah satu destinasi wisata yang bisa anda temukan di jalan Raya Karangwidoro 7, Kecamatan Dau, Kabupaten Malang. Museum Zoologi di Indonesia memang tidak banyak, selain yang ada di Bogor, Jawa Timur juga punya, yaitu yang ada di Malang. Museum Zoologi ini memiliki koleksi biota laut terlengkap di Indonesia walaupun memang museum jenis ini tidak seberapa populer di kalangan masyarakat Malang sendiri. Museum ini berada dalam satu kompleks dengan Provinsialat Frater BHK (Bunda Hati Kudus), Novisiat Frater BHK, Kantor Pusat Yayasan Pendidikan Mardi Wiyata, dan makam Frater BHK</string>
+    <string name="judul_deskripsi">Museum Zoologi Fr.Vianney</string>
+    <string name="informasi_alamat">Informasi Tempat Wisata</string>
+    <string name="alamat">Jalan Karang Widoro No.7, Doro, Karangwidoro, Dau, Malang, Jawa Timur 65146</string>
+    <string name="jam">Jam Kerja</string>
+    <string name="telp">(0341) 558965</string>
+    <string name="jamkerja">Senin - Sabtu / Jam 6.30 - 2.00</string>
+    <string name="desc_fasilitas">Fasilitas yang didapat : untuk Paket TK meliputi Lembar Unjuk Kerja dan pensil warna. Untuk paket SD meliputi Lembar Unjuk Kerja serta pre test dan post test. Diluar paket harus dikonsultasikan dengan petugas museum. Minimal kunjungan kelompok berjumlah 25 orang. Jam buka mulai Senin – Sabtu, pukul 07.30 sampai 14.00. Bagi pengunjung kelompok ada penjelasan dari guru biologi sehubungan dengan materi yang disampaikan. Bagi pengunjung umum tidak ada biaya restribusi khusus, disediakan kotak untuk sumbangan sukarela.</string>
+    <string name="titl_fasilitas">Fasilitas</string>
+</resources>

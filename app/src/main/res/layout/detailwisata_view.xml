@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailwisata"
+    android:background="@color/ijo">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:gravity="center"
+                android:layout_marginTop="0dp">
+                <Button
+                    android:id="@+id/ButtonHome"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="HOME"
+                    android:background="@color/biru"
+                    android:textStyle="bold"
+                    android:textColor="@color/putih"
+                    android:textSize="14sp"/>
+                <Button
+                    android:id="@+id/ButtonDetail"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="WISATA"
+                    android:background="@color/biru"
+                    android:textStyle="bold"
+                    android:textColor="@color/putih"
+                    android:textSize="14sp"/>
+                <Button
+                    android:id="@+id/ButtonFasilitas"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="FASILITAS"
+                    android:background="@color/biru"
+                    android:textStyle="bold"
+                    android:textColor="@color/putih"
+                    android:textSize="14sp"/>
+                <Button
+                    android:id="@+id/ButtonGaleri"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="GALERI"
+                    android:background="@color/biru"
+                    android:textStyle="bold"
+                    android:textColor="@color/putih"
+                    android:textSize="14sp"/>
+                <Button
+                    android:id="@+id/ButtonOpini"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="OPINI"
+                    android:background="@color/biru"
+                    android:textStyle="bold"
+                    android:textColor="@color/putih"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:text="@string/judul_deskripsi"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textColor="@color/putih"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:paddingHorizontal="20dp"
+                android:text="@string/deskripsi"
+                android:textAlignment="center"
+                android:textColor="@color/putih"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/biru"
+                android:padding="8dp"
+                android:text="@string/informasi_alamat"
+                android:textAlignment="center"
+                android:textColor="@color/putih"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/transparant1"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="Alamat"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/alamat"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="@color/transparant1"
+                android:paddingTop="5dp"
+                android:paddingHorizontal="20dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/jam"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/jamkerja"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/transparant1"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                android:paddingTop="5dp" android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="Kontak"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/telp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</ScrollView>
