@@ -4,6 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ariefk.kelompok5museumzoologifratervianney.Opini">
+    tools:context="com.example.ariefk.kelompok5museumzoologifratervianney.Opini"
+    android:background="@color/ijo">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:gravity="center"
+        android:layout_marginTop="0dp">
+        <Button
+            android:id="@+id/ButtonHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="HOME"
+            android:background="@color/biru"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/ButtonDetail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="WISATA"
+            android:background="@color/biru"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/ButtonFasilitas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="FASILITAS"
+            android:background="@color/biru"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/ButtonGaleri"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="GALERI"
+            android:background="@color/biru"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/ButtonOpini"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="OPINI"
+            android:background="@color/biru"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

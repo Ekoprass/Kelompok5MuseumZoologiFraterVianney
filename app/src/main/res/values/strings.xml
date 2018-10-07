@@ -9,4 +9,6 @@
     <string name="jamkerja">Senin - Sabtu / Jam 6.30 - 2.00</string>
     <string name="desc_fasilitas">Fasilitas yang didapat : untuk Paket TK meliputi Lembar Unjuk Kerja dan pensil warna. Untuk paket SD meliputi Lembar Unjuk Kerja serta pre test dan post test. Diluar paket harus dikonsultasikan dengan petugas museum. Minimal kunjungan kelompok berjumlah 25 orang. Jam buka mulai Senin – Sabtu, pukul 07.30 sampai 14.00. Bagi pengunjung kelompok ada penjelasan dari guru biologi sehubungan dengan materi yang disampaikan. Bagi pengunjung umum tidak ada biaya restribusi khusus, disediakan kotak untuk sumbangan sukarela.</string>
     <string name="titl_fasilitas">Fasilitas</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

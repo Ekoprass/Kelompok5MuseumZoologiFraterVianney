@@ -57,6 +57,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        myMap = (Button) findViewById(R.id.map);//menyatakan bahwa id button profil disimpan pada object
+        myMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent n = new Intent(getApplicationContext(),MapsActivity.class);
+                startActivity(n);
+            }
+        });
 
 
     }
